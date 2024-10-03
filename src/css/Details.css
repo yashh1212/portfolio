@@ -1,0 +1,37 @@
+.details_body {
+    width: 58%;
+    height: 100vh;
+    background-color: #0f172a;
+    background: transparent;
+    overflow-y: auto;
+    z-index: 1;
+}
+
+.personal_details {
+    font-family: "Poppins", sans-serif;
+    /* margin:10px auto; */
+    margin-top: 100px;
+    /* width: 590px; */
+    color: #929292;
+    z-index: 1;
+}
+
+.personal_details p {
+    margin: auto;
+    width: 590px;
+    margin-bottom: 20px;
+}
+
+.personal_details p span {
+    color: #fff;
+}
+
+.personal_details p span:hover {
+    color: #5EEAD4;
+}
+
+.about {
+    font-family: __inter_20b187, __inter_fallback_20b187, ui-sans-serif, system-ui, -apple-system, blinkmacsystemfont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-size: 16px;
+    font-weight: 500;
+}

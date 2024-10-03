@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation_body {
+    height: 100vh;
+    width: 42%;
+    color: RGB(226, 232, 240);
+    display: flex;
+    justify-content: center;
+    background-color: #0f172a;
+    /* overflow: auto; */
+
+
+}
+
+.details {
+    margin-left: 150px;
+    margin-top: 100px;
+    z-index: 1;
+}
+
+.navigation_body h1 {
+
+    color: #cfd9ed;
+    font-size: 285%;
+    font-weight: 700;
+    z-index: 1;
+}
+
+.navigation_body h2 {
+    color: #cfd9ed;
+    display: inline-block;
+}
+
+.navigation_body ul {
+    margin-top: 100px;
+}
+
+.navigation_body ul li {
+    margin: 20px 0px;
+    list-style: none;
+}
+
+.navigation_body ul li span {
+    font-family: __inter_20b187, __inter_fallback_20b187, ui-sans-serif, system-ui, -apple-system, blinkmacsystemfont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-size: 12px;
+    font-weight: 800;
+    color: #929292;
+    width: 50px;
+}
+
+.list-item {
+    margin-bottom: 10px;
+    transition: transform 0.2s ease-in-out;
+}
+
+
+.line {
+    display: inline-block;
+    width: 10px;
+    margin-bottom: 3px;
+    height: 1.5px;
+    background-color: #929292;
+    transition: width 0.2s ease-in-out;
+}
+
+.list-item:hover .line {
+    background-color: #fff;
+    width: 80px;
+}
+
+.list-item:hover span {
+    color: #fff;
+    /* width: 80px; */
+}
+
+.list-item a {
+    text-decoration: none;
+    color: #ffffff;
+    display: inline-block;
+}
+
+.active .line {
+    background-color: #fff;
+    width: 80px;
+    font-weight: bold;
+}
+
+.active .nav-item {
+    font-family: __inter_20b187, __inter_fallback_20b187, ui-sans-serif, system-ui, -apple-system, blinkmacsystemfont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    color: #fff;
+}
+
+.links {
+    list-style: none;
+    display: flex;
+}
+
+.link-li {
+    margin-left: 20px;
+}
+
+.links li a svg {
+    width: 25px;
+    margin-right: 20px;
+    margin-top: 30px;
+    color: #929292;
+}
+
+.links li a svg:hover {
+    color: #5EEAD4;
+    transition: 0.25s ease-in-out;
+    transform: scale(1.12);
+}

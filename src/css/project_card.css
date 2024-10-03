@@ -1,0 +1,114 @@
+.project_card {
+    display: flex;
+    width: 590px;
+    border-radius: 9px;
+    margin-bottom: 50px;
+    margin: 20px auto;
+    padding: 25px;
+    border: 1px solid transparent;
+
+}
+
+.project_card .project_info span {
+    display: flex;
+    color: #929292;
+    font-family: __inter_20b187, __inter_fallback_20b187, ui-sans-serif, system-ui, -apple-system, blinkmacsystemfont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    color: #94a3b8;
+    font-size: 1.1rem;
+    font-weight: 650;
+    margin-bottom: 6px;
+
+}
+
+.project_card .project_info p {
+    display: flex;
+    color: #94a3b8;
+    font-family: __inter_20b187, __inter_fallback_20b187, ui-sans-serif, system-ui, -apple-system, blinkmacsystemfont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    margin-top: 8px;
+    line-height: 1.5;
+    color: #94a3b8;
+    font-size: .875rem;
+    font-weight: 500;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.project_card .project_info svg {
+    width: 16px;
+    margin-top: 6px;
+    margin-left: 5px;
+
+}
+
+.project_card:hover {
+
+    border: 1px solid #929292;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+    background-color: rgb(146, 146, 146, 0.07);
+
+    transition: 0.2s ease-out;
+}
+ 
+
+.project_card:hover .project_image img {
+
+    border: 1.8px solid #929292;
+    transition: 0.2s ease-out;
+}
+
+.project_card:hover~.project_card {
+    opacity: 0.5;
+    transition: 0.3s ease-in-out;
+}
+
+.project_card::after,
+::before {
+    opacity: 0.5;
+    transition: 0.3s ease-in-out;
+}
+
+.project_card:hover span {
+
+    color: #5EEAD4;
+    transition: 0.2s ease-out;
+
+}
+
+.project_card:hover span .inline-block {
+    color: #5EEAD4;
+    transform: translate(15%, -20%);
+    transition: 0.2s ease-out;
+
+}
+
+.project_card .project_image img {
+    width: 150px;
+    border: 1.8px solid #24304b;
+    border-radius: 3px;
+    margin-right: 20px;
+}
+
+.project_info h2 {
+    color: #929292;
+}
+
+ 
+
+.project_info ul li {
+    --tw-text-opacity: 1;
+    text-align: center;
+    font-weight: 500;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    list-style: none;
+    padding: 1px 10px;
+    border-radius: 15px;
+    background-color: rgb(146, 146, 146, 0.1);
+    margin-right: .375rem;
+    color: #5EEAD4;
+    cursor: default;
+}

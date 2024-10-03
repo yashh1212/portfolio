@@ -1,0 +1,26 @@
+.skills_body{
+    width: 590px;
+    margin: auto;
+}
+.languages{
+margin: 50px auto;
+margin-bottom: 80px;
+}
+.languages ul{
+
+    display: flex;
+    list-style: none;
+}
+.languages ul li{
+    margin-right: 30px;
+}
+.languages ul img{
+    opacity: 0.7;
+    width: 40px;
+}
+.languages ul img:hover{
+    opacity: 1;
+    transform: scale(1.3);
+    transition: 0.2s ease-in-out;
+}
+

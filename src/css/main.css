@@ -1,0 +1,203 @@
+ .secondcomponent {
+     overflow-y: auto;
+ }
+
+ .body_main {
+     display: flex;
+     height: 100vh;
+     overflow: auto;
+ }
+
+ .details_body {
+     flex-grow: 1;
+     overflow-y: auto;
+ }
+
+ .hidden h1 {
+     font-family: __inter_20b187, __inter_fallback_20b187, ui-sans-serif, system-ui, -apple-system, blinkmacsystemfont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+     font-size: 1.1rem;
+     font-weight: 790;
+     color: #E2E8F0;
+ }
+
+ .hidden {
+     width: 590px;
+     margin: auto;
+     margin-top: 120px;
+ }
+
+ .hidden h1:hover {
+     color: aquamarine;
+     cursor: default;
+ }
+
+ .top_most {
+     margin-bottom: -56px;
+ }
+
+ .navigation_body_details {
+     display: none;
+ }
+
+ @media screen and (max-width:1040px) {
+     .navigation_body {
+         display: none;
+     }
+
+     .navigation_body_details {
+        display: flex;
+         position: sticky;
+         overflow: hidden;
+         width: 100%;
+         margin: 0;
+         padding: 0;
+     }
+     .navigation_body_details .links li svg{
+        margin-left: -20px;
+        /* margin-right: 10px; */
+     }
+
+      
+
+     .navigation_body_details .details {
+         width: 100%;
+     }
+
+     .navigation_body_details .details h1 {
+         color: #E2E8F0;
+         margin-top: -60px;
+         margin-left: -130px;
+         margin-right:5px;
+         font-size: 250%;
+     }
+
+     .navigation_body_details .details h2 {
+         color: #E2E8F0;
+         margin-left: -125px;
+     }
+
+     .navigation_body_details .details .links {
+         margin-top: -10px;
+         margin-left: -125px;
+     }
+
+
+
+     .body_main {
+         padding: 0;
+         width: 100%;
+         display: block;
+         scroll-behavior: smooth;
+         overflow: hidden;
+         z-index: 1
+             /* overflow-x: hidden; */
+     }
+
+     .body_main .details_body {
+         margin-top: 0px;
+         width: 100%;
+     }
+
+     .body_main .top_most {
+         margin-bottom: -100px;
+     }
+
+     .body_main .personal_details {
+         margin-top: 10px;
+     }
+
+     .body_main .hidden {
+         margin: auto;
+         margin-top: 80px;
+         margin-bottom: 20px;
+         margin-left: 1px;
+     }
+
+
+
+     .details_body {
+         z-index: 1;
+         margin: 15px;
+         width: 100%;
+         overflow-x: hidden;
+     }
+
+     .details_body .personal_details p {
+         width: 90%;
+         margin: 0;
+     }
+
+     .experience_card,
+     .project_card {
+         display: block;
+         width: 88%;
+         border-radius: 9px;
+         margin-bottom: 50px;
+         margin-left: -25px;
+         border: 1px solid transparent;
+
+     }
+
+     .skills_body {
+         margin: 0;
+         width:100%;
+         overflow: hidden;
+     }
+
+     .skills_body ul {
+         display: grid;
+         row-gap: 21px;
+         margin-left: 5px;
+         grid-template-columns: auto auto auto auto auto;
+     }
+
+     .body_main .details_body .experience_body .experience_card:hover {
+         border: none;
+         box-shadow: none;
+         background-color: transparent;
+         transition: 0.2s ease-out;
+     }
+
+
+     .body_main .details_body .project_body .project_card {
+         /* margin: 0.1px; */
+         box-shadow: none;
+         border: none;
+         background-color: transparent;
+         transition: 0.2s ease-out;
+     }
+     .body_main .details_body .project_body .project_card .tech{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+     }
+     .body_main .skills_body .hidden{
+        margin-top: 10px;
+     }
+     .body_main .mail_body .form_data {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+     }
+     .body_main .mail_body {
+        margin:20px;
+        padding: 0;
+      }
+     .body_main .mail_body .hidden{
+        margin-top: -10px;
+        margin-bottom: 30px;
+        margin-left: -20px;
+        padding: 0;
+      }
+     .body_main .mail_body .form_data form{
+        margin: 0;
+        padding: 0;
+        /* width: 100%; */
+     }
+     .body_main .mail_body .form_data form input,textarea{
+         padding: 0;
+        width: 90%;
+     }
+     .body_main .mail_body .loader{
+        width: 45%;
+      }
+}
