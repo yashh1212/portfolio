@@ -10,9 +10,9 @@ function Project() {
   const projects = [
     {
       project_name: "Hospital website",
-      href: "https://shrikrushna-hospital.netlify.app/",
+      href: "https://shrikrushnahospital.vercel.app/",
       img: hospital,
-      technologies: ["React", "NodeJs", "Css", "Express", "RestApi"],
+      technologies: ["React", "Node.js", "Express", "REST API", "Tailwind CSS"],
       des: "Created a comprehensive hospital website to enhance patient engagement and streamline services. Features include a secure patient portal for accessing medical records, booking appointments, and communicating with healthcare providers. The site offers an intuitive appointment system, a detailed service directory, doctor profiles, emergency contact information, and health resources. Designed to be fully responsive, it ensures accessibility on mobile and desktop devices. Technologies used: HTML, CSS, JavaScript, React, Node.js, and MongoDB.",
     },
     {
