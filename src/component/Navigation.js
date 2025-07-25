@@ -124,6 +124,24 @@ const Navigation = ({ scrollToSection, activestate, handlescroll }) => {
               </svg>
             </a>
           </li>
+          <li className="link-li">
+  <a
+    href="https://codolio.com/profile/Yashdhokane"  // Replace with your actual Codolio URL
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Codolio"
+  >
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      className="h-8 w-8"
+    >
+      <path d="M2 4.5A2.5 2.5 0 0 1 4.5 2h15A2.5 2.5 0 0 1 22 4.5v15a2.5 2.5 0 0 1-2.5 2.5h-15A2.5 2.5 0 0 1 2 19.5v-15ZM9 8a1 1 0 0 0 0 2h3.586L10.293 12.293a1 1 0 1 0 1.414 1.414L14 11.414V15a1 1 0 1 0 2 0V9a1 1 0 0 0-1-1H9Z" />
+    </svg>
+  </a>
+</li>
+
         </ul>
       </div>
     </div>
