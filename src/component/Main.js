@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
-import Details from "./Details";
-import Navigation from "./Navigation";
+import Details from "./Details.js";
+import Navigation from "./Navigation.js";
 import "../css/main.css";
 
 function Main({ scrollToSection, setRefs, activestate, setactivated }) {

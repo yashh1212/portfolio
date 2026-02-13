@@ -1,10 +1,10 @@
 import React, { useEffect, useRef, forwardRef } from "react";
 import "../css/Details.css";
-import Project from "./Project";
-import About from "./About";
-import Experience from "./Experience";
-import Skills from "./Skills";
-import Mail from "./Mail";
+import Project from "./Project.js";
+import About from "./About.js";
+import Experience from "./Experience.js";
+import Skills from "./Skills.js";
+import Mail from "./Mail.js";
 
 const Details = forwardRef(({ setRefs, setactivated }, ref) => {
   const projectRef = useRef(null);

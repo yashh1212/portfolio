@@ -1,5 +1,5 @@
 import React from 'react'
-import Project_card from './Project_card'
+import Project_card from './Project_card.js'
 import hospital from "../images/hospital ss.png";
 import weather from "../images/weather ss.png";
 import architectureAnalyzer from "../images/architectureAnalyzer.png";

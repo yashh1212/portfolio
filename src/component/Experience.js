@@ -1,5 +1,5 @@
 import React from "react";
-import Experience_card from "./Experience_card";
+import Experience_card from "./Experience_card.js";
 import "../css/Experience.css";
 
 function Experience() {
