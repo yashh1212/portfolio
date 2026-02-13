@@ -1,4 +1,4 @@
-import React, { forwardRef } from "react";
+import React from "react";
 import "../css/Navigation.css";
 
 const Navigation = ({ scrollToSection, activestate, handlescroll }) => {

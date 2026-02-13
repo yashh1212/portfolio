@@ -1,7 +1,7 @@
 import React from "react";
 import "../css/project_card.css";
 
-function Project_card({project}) {
+function ProjectCard({project}) {
  
   return (
     <a href={project.href} target="_main" className="project_card">
@@ -42,4 +42,4 @@ function Project_card({project}) {
   );
 }
 
-export default Project_card;
+export default ProjectCard;
