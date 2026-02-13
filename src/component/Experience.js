@@ -5,6 +5,14 @@ import "../css/Experience.css";
 function Experience() {
   const experiences = [
     {
+  company_name: "Software Developer Intern · HHT Technologies (Remote)",
+  des: "Currently contributing to full-stack development initiatives, building and maintaining frontend components and backend APIs. I develop scalable features using JavaScript, ReactJS, and Node.js, while assisting in debugging, performance optimization, and code quality improvements. Collaborating with cross-functional teams, I help deliver reliable and user-focused web solutions.",
+  start: "MAY 2025",
+  end: "PRESENT",
+  technologies: ["JavaScript", "ReactJS", "Node.js", "REST API", "Git"]
+}
+,
+    {
       company_name: "Intern · RB Tech",
       des: "As a Frontend Developer Intern, I gained hands-on experience building responsive and intuitive web interfaces. Collaborating with senior developers, I contributed to enhancing user experiences by implementing features using React, JavaScript, HTML, and CSS, ensuring seamless functionality across various devices.",
 

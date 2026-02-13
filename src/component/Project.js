@@ -2,12 +2,21 @@ import React from 'react'
 import Project_card from './Project_card'
 import hospital from "../images/hospital ss.png";
 import weather from "../images/weather ss.png";
+import architectureAnalyzer from "../images/architectureAnalyzer.png";
 import stock from "../images/1_QRu9hDVzyXIL3P0VTPlw3g.jpg";
 import "../css/project_card.css";
 
 
 function Project() {
   const projects = [
+    {
+  project_name: "AI Code Architecture Analyzer",
+  href: "https://your-project-link.vercel.app/",
+  img: architectureAnalyzer,
+  technologies: ["React", "FastAPI", "Python", "AST", "LLM Integration", "Tailwind CSS"],
+  des: "Built a scalable AI-driven code architecture analyzer that examines repositories to extract structural insights, detect circular dependencies, and map module relationships. Using Python AST parsing and repository tree analysis, the system enables architecture-aware AI chat and contextual Q&A over entire codebases. The platform delivers structured JSON outputs to a responsive frontend, helping developers quickly understand and navigate complex systems."
+}
+,
     {
       project_name: "Hospital website",
       href: "https://shrikrushnahospital.vercel.app/",
