@@ -9,7 +9,7 @@ function Experience() {
   des: "Currently contributing to full-stack development initiatives, building and maintaining frontend components and backend APIs. I develop scalable features using JavaScript, ReactJS, and Node.js, while assisting in debugging, performance optimization, and code quality improvements. Collaborating with cross-functional teams, I help deliver reliable and user-focused web solutions.",
   start: "MAY 2025",
   end: "PRESENT",
-  technologies: ["JavaScript", "ReactJS", "Node.js", "REST API", "Git"]
+  technologies: ["JavaScript", ,"ReactJS", "Node.js", "REST API", "Git"]
 }
 ,
     {

@@ -24,13 +24,13 @@ function Project() {
       technologies: ["React", "Node.js", "Express", "REST API", "Tailwind CSS"],
       des: "Created a comprehensive hospital website to enhance patient engagement and streamline services. Features include a secure patient portal for accessing medical records, booking appointments, and communicating with healthcare providers. The site offers an intuitive appointment system, a detailed service directory, doctor profiles, emergency contact information, and health resources. Designed to be fully responsive, it ensures accessibility on mobile and desktop devices. Technologies used: HTML, CSS, JavaScript, React, Node.js, and MongoDB.",
     },
-    {
-      project_name: "Weather app",
-      href: "https://serene-cobbler-2b97c7.netlify.app/",
-      img: weather,
-      technologies: ["Html", "Css", "JavaScript"],
-      des: "Developed a dynamic weather web app using HTML, CSS, and JavaScript. The app provides real-time weather updates, including temperature, humidity, and forecast data, for any location. It features a clean, responsive design for seamless use on both mobile and desktop devices.",
-    },
+    // {
+    //   project_name: "Weather app",
+    //   href: "https://serene-cobbler-2b97c7.netlify.app/",
+    //   img: weather,
+    //   technologies: ["Html", "Css", "JavaScript"],
+    //   des: "Developed a dynamic weather web app using HTML, CSS, and JavaScript. The app provides real-time weather updates, including temperature, humidity, and forecast data, for any location. It features a clean, responsive design for seamless use on both mobile and desktop devices.",
+    // },
     {
       project_name: "Stock Marcket Prediction",
       href: "#",
